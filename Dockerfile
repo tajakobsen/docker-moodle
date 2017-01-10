@@ -1,7 +1,8 @@
 # Dockerfile for moodle instance. more dockerish version of https://github.com/sergiogomez/docker-moodle
 # Forked from Jon Auer's docker version. https://github.com/jda/docker-moodle
 FROM ubuntu:16.04
-MAINTAINER Jonathan Hardison <jmh@jonathanhardison.com>
+MAINTAINER Tom Arild Jakobsen <tajakobsen@gmail.com>
+# MAINTAINER Jonathan Hardison <jmh@jonathanhardison.com>
 #Original Maintainer Jon Auer <jda@coldshore.com>
 
 VOLUME ["/var/moodledata"]

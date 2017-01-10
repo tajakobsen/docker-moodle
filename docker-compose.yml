@@ -3,7 +3,7 @@ version: '2'
 services:
   moodle:
     container_name: h5p-moodle
-    image: moodle
+    image: tajakobsen/h5p-moodle:3.2.0
     links:
      - "database"
     ports:
